@@ -14,8 +14,8 @@ My capstone project focused on comparing an ampicillin-resistant E. coli strain 
 
 For the bioinformatics part of my capstone, I worked with FTIR spectral data from six samples, including three resistant and three non-resistant samples. I used R to process and analyze the spectral data. Before comparing the samples, I performed baseline correction and vector normalization to reduce unwanted variation and make the spectra easier to compare.
 
-I then used principal component analysis (PCA) to look at the main patterns in the spectral data. PCA reduced the large amount of spectral information into a smaller number of components that could be visualized. PC1 explained 48.2% of the variation, while PC2 explained 25.3%. The resistant and non-resistant samples showed some patterning, but the two groups did not completely separate. Therefore, the results showed some variation between the samples, but the dataset was not strong enough to conclude that the two groups were completely different.
-
+I then used principal component analysis (PCA) to look at the main patterns in the spectral data. PCA reduced the large amount of spectral information into a smaller number of components that could be visualized. PC1 explained 48.2% of the variation, while PC2 explained 25.3%. The resistant and non-resistant samples showed some patterning, but the two groups did not completely separate. Therefore, the results showed some variation between the samples, but the dataset was not strong enough to conclude that the two groups were completely different. 
+![PCA plot of baseline-corrected and normalized FTIR spectra comparing resistant and non-resistant E. coli samples](/biot74000-portfolio/images/pca_ftir.png)
 
 ## Why It Strengthened My Capstone
 
