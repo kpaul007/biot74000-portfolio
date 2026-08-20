@@ -3,86 +3,85 @@ permalink: /toolkit/
 title: "Bioinformatics Toolkit"
 author_profile: true
 ---
-
-
-
 ## Sequence Analysis Tools
 
 ### BLAST (Basic Local Alignment Search Tool)
-I used BLASTN to compare nucleotide sequences with sequences available in biological databases. It helped me find similar sequences and understand how a query sequence compares with known sequences.
 
-One strength of BLASTN is that it can quickly find similar sequences. One limitation is that finding a similar sequence does not automatically mean that the sequence has the same biological function, so the results still need to be interpreted.
+**Use example:** Located sequence similarity and interpreted E-values by comparing query DNA/RNA sequences with sequences in biological databases for bioinformatics and molecular biology assignments.
+
+**Strengths / limitations:** Able to rapidly search very large sequence databases and identify similar sequences, but E-values and sequence similarity must be interpreted carefully because similarity does not automatically confirm biological function.
 
 ### Clustal Omega
 
-I used Clustal Omega for multiple-sequence alignment. It allowed me to compare several sequences at the same time and look for regions that were conserved or different.
+**Use example:** Performed multiple-sequence alignments to compare DNA or protein sequences and identify conserved and variable regions.
 
-One strength of Clustal Omega is that it makes comparing multiple sequences easier. One limitation is that the alignment still needs to be interpreted carefully, especially when the sequences are not closely related.
+**Strengths / limitations:** Makes comparison of multiple sequences efficient and helps identify conserved regions, but alignments can be less reliable when sequences are distantly related.
 
 ## Databases and Data Retrieval
 
 ### NCBI
 
-I used NCBI to search for biological sequences, genes, and other biological information. It was one of the main resources I used to find sequence information.
+**Use example:** Retrieved nucleotide sequences, genes, and other biological information from public databases for sequence-analysis assignments.
 
-A major strength of NCBI is the large amount of biological information available. One limitation is that there are many different records and identifiers, so I had to pay attention to which record and sequence I was actually using.
+**Strengths / limitations:** Provides a very large collection of biological data, but the number of records and identifiers can make it difficult to select the correct sequence or database entry.
 
 ### ClinVar
 
-I used ClinVar to explore information about genetic variants and their clinical significance.
+**Use example:** Investigated genetic variants and reviewed their reported clinical significance and supporting evidence.
 
-One strength of ClinVar is that it connects genetic variants with clinical information. One limitation is that different submissions can sometimes have different interpretations, so the supporting evidence needs to be considered.
+**Strengths / limitations:** Connects genetic variants with clinical interpretations, but different submissions may report different interpretations, requiring careful evaluation of the evidence.
 
 ### dbSNP
 
-I used dbSNP to investigate known genetic variants and their identifiers.
+**Use example:** Identified known genetic variants and their database identifiers for variant-analysis activities.
 
-A strength of dbSNP is that it provides a large collection of known variants. However, finding a variant in dbSNP does not mean that the variant is necessarily harmful or clinically important.
+**Strengths / limitations:** Contains a large collection of known genetic variants, but the presence of a variant in dbSNP does not indicate that it is harmful or clinically significant.
 
 ### gnomAD
 
-I used gnomAD to look at information about genetic variants in different populations.
+**Use example:** Examined genetic variant frequencies across different human populations to help assess whether variants are common or rare.
 
-One useful feature of gnomAD is that it provides information about how common or uncommon a variant is. However, the frequency of a variant alone is not enough to determine whether it is pathogenic.
+**Strengths / limitations:** Provides extensive population-frequency information, but variant frequency alone cannot determine whether a variant is pathogenic.
 
 ## Genome and Transcriptome Analysis
 
 ### UCSC Genome Browser
 
-I used the UCSC Genome Browser to explore genomic regions and look at genes in their genomic context.
+**Use example:** Examined genomic regions, genes, and genomic annotations to understand genes within their broader genomic context.
 
-I found the visual format useful because it allows different types of genomic information to be viewed together. One limitation is that there is a lot of information available, so it can be confusing when first learning how to use it.
+**Strengths / limitations:** Allows multiple types of genomic information to be viewed together, but the large amount of available information can be difficult to navigate initially.
 
 ### Ensembl
 
-I used Ensembl to explore gene and genome annotation information.
+**Use example:** Retrieved gene, genome, transcript, and annotation information for genomic analysis.
 
-Ensembl is useful because it provides a lot of information about genes and genomes in one place. However, there are many different types of information available, so it is important to know which information is relevant to the question being investigated.
+**Strengths / limitations:** Provides extensive genome and gene annotation resources, but the large amount of information requires careful selection of the relevant data.
 
 ### GEO
 
-I used GEO to explore publicly available gene-expression datasets.
+**Use example:** Retrieved and explored publicly available gene-expression datasets to investigate changes in gene expression.
 
-GEO is useful because researchers can access datasets from other studies. However, understanding a GEO dataset requires looking carefully at the sample information, experimental design, and metadata before interpreting the results.
+**Strengths / limitations:** Provides access to datasets from many published studies, but experimental design, sample information, and metadata must be carefully examined before interpreting results.
 
 ### g:Profiler
 
-I used g:Profiler to investigate the biological functions and pathways associated with groups of genes.
+**Use example:** Performed functional enrichment analysis to identify biological processes, pathways, and functions associated with groups of genes.
 
-One strength of g:Profiler is that it can help connect a list of genes to larger biological processes. One limitation is that the results depend on the genes included in the input list and the background used for the analysis.
+**Strengths / limitations:** Helps connect gene lists to biological functions and pathways, but results depend on the input gene list and the background used for the analysis.
 
 ## Protein Structure and Function
 
 ### UniProt
 
-I used UniProt to find information about proteins, including their functions and annotations.
+**Use example:** Retrieved protein sequences, functions, annotations, and other protein-related information for bioinformatics analysis.
 
-UniProt was useful because it provides a large amount of protein information in one place. One limitation is that not every piece of information has the same level of experimental evidence, so the type of annotation needs to be considered.
+**Strengths / limitations:** Provides extensive protein information in one resource, but annotations can have different levels of experimental support and should be evaluated accordingly.
 
 ### AlphaFold
 
-I used AlphaFold-related resources to explore predicted protein structures.
+**Use example:** Explored predicted three-dimensional protein structures to investigate possible protein structure and function.
 
-One advantage is that predicted structures can provide an idea of what a protein may look like in three dimensions. However, a predicted structure should not automatically be treated as the same as an experimentally determined structure.
+**Strengths / limitations:** Provides useful structural predictions when experimental structures are unavailable, but predicted structures should not automatically be considered equivalent to experimentally determined structures.
+
 
 
