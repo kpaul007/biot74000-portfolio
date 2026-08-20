@@ -4,56 +4,19 @@ title: "Capstone Connection"
 author_profile: true
 ---
 
-<!--
-  ============================================================================
-  SECTION 4: CAPSTONE CONNECTION  (20 points)  |  Suggested length: 200–300 words
-  ============================================================================
-  A concise, professional summary of how you applied bioinformatics to your
-  capstone project. This draws from your Assignment 2 work — it is a
-  professional-context summary, NOT a repeat of the assignment.
 
-  INCLUDE:
-    - A 2–4 sentence description of your capstone project (assume a general
-      audience who is not in your program)
-    - The bioinformatics tool, dataset, or method you applied in Assignment 2,
-      and why it was relevant
-    - What you found or produced, described in plain language
-    - 1–2 sentences on how this bioinformatics component strengthened your capstone
-    - (Optional) embedded images or output figures — see the guide for how to
-      add an image
-
-  HOW TO EDIT:
-    - Replace the placeholder text below with your own.
-    - Delete these grey instruction notes before you submit.
-  ============================================================================
--->
 
 ## My Capstone Project
 
-[In 2–4 sentences, describe your capstone project for a general reader. What
-question or problem does it address? Why does it matter? Avoid program-specific
-jargon.]
+My capstone project focused on comparing an ampicillin-resistant E. coli strain with a non-resistant E. coli strain. The goal was to see if there were differences between the two strains using laboratory methods and FTIR analysis. FTIR was used to collect spectral information from the bacterial samples, which could then be analyzed to look for differences between the two groups.
 
 ## The Bioinformatics Component
 
-[Describe the specific bioinformatics tool, dataset, or method you applied in
-Assignment 2, and explain why it was the right choice for this problem.]
+For the bioinformatics part of my capstone, I worked with FTIR spectral data from six samples, including three resistant and three non-resistant samples. I used R to process and analyze the spectral data. Before comparing the samples, I performed baseline correction and vector normalization to reduce unwanted variation and make the spectra easier to compare.
 
-[In plain language, describe what you found or produced. What did the analysis
-tell you?]
+I then used principal component analysis (PCA) to look at the main patterns in the spectral data. PCA reduced the large amount of spectral information into a smaller number of components that could be visualized. PC1 explained 48.2% of the variation, while PC2 explained 25.3%. The resistant and non-resistant samples showed some patterning, but the two groups did not completely separate. Therefore, the results showed some variation between the samples, but the dataset was not strong enough to conclude that the two groups were completely different.
+
 
 ## Why It Strengthened My Capstone
 
-[In 1–2 sentences, explain how adding this bioinformatics work made your
-capstone project stronger, more credible, or more complete.]
-
-<!--
-  OPTIONAL — to embed an image or figure you produced:
-  1. Upload the image file to the images/ folder in your repository.
-  2. Add a line like this where you want it to appear (remove the leading
-     grey-comment marks):
-
-     ![Short description of the figure](/biot74000-portfolio/images/your-figure.png)
-
-  Make sure the path matches your repository name.
--->
+Using R and PCA helped me look at my FTIR data in a more organized and quantitative way instead of only comparing individual spectra. It also helped me understand how bioinformatics and data analysis can be combined with laboratory experiments to better understand biological data.
