@@ -7,37 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-<!--
-  ============================================================================
-  SECTION 1: ABOUT  (10 points)  |  Suggested length: 100–200 words
-  ============================================================================
-  This is the first page visitors see. Write a brief, professional
-  introduction for someone who does not know you — imagine a hiring manager
-  doing a 30-second scan. This is NOT a personal bio.
+My name is **Kenneth Paul**, and I am a Bachelor of Applied Biotechnology student at Conestoga College. During my program, I have developed experience in microbiology, molecular biology, analytical laboratory techniques, and biotechnology.
+I am interested in working in the biotechnology and laboratory industry after graduation. I am especially interested in laboratory, quality control, and biotechnology-related positions. At the same time, I have become more interested in bioinformatics because I can see how computational tools can be used together with laboratory experiments.
+Before taking this course, I had some experience with biological databases and computational tools, but I did not have a strong understanding of how these different resources could be used together to answer biological questions. BIOT74000 gave me experience with sequence analysis, biological databases, genome resources, transcriptomic data, and R.
 
-  Include:
-    - Your name and academic program
-    - One or two sentences about your professional interests / career direction
-    - One sentence on why bioinformatics is relevant to your goals
-    - (Optional) a professional photo — see the guide for how to add one
 
-  HOW TO EDIT:
-    - Replace the placeholder text below with your own.
-    - Keep the "---" block at the very top of this file exactly as it is.
-    - Delete these grey instruction notes (everything between the
-      <!-- and --​> marks) before you submit.
-  ============================================================================
--->
 
-Hello — I'm [**Kenneth Paul**], a student in the Bachelor of Applied Biotechnology
-(Honours) program at Conestoga College.
 
-[Write one or two sentences about your professional interests or the direction
-you want your career to take. Be specific: what kind of work in biotechnology
-or bioinformatics interests you, and why?]
-
-[Write one sentence explaining why bioinformatics matters for where you want to
-go. This connects the skills in this portfolio to your goals.]
-
-This portfolio documents the bioinformatics tools, methods, and skills I have
-developed, and how I have applied them.
